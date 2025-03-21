@@ -1,7 +1,7 @@
-let initialDays = 0;
-let initialHours = 0;
-let initialMinutes = 10;
-let initialSeconds = 10;
+let initialDays = 7;
+let initialHours = 24;
+let initialMinutes = 60;
+let initialSeconds = 60;
 let interval;
 
 const timerElement = document.getElementById("timer");
