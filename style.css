@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1, #timer {
+    font-size: 2rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #terminal {
+    background-color: black;
+    color: #00ff00;
+    font-size: 1.5rem;
+    width: 80%;
+    max-width: 800px;
+    height: 300px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .cursor {
+    background-color: #00ff00;
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    margin-left: 5px;
+    animation: blink 0.7s steps(2, start) infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  #error-message {
+    font-size: 1.8rem;
+    color: red;
+    margin-top: 20px;
+  }
+  
+  #donate-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #donate-button:hover {
+    background-color: #0056b3;
+  }
